@@ -6,7 +6,7 @@ import java.util.*;
 
 //Time Complexity: O(V) + O(E);
 
-public class C3_BFS {
+public class C03_BFS {
     public static void BFS(int edge, HashMap<Integer, List<Integer>> graph, List<Integer> result, boolean[] checkVisited){
         Queue<Integer> q = new LinkedList<>();
         q.add(edge);

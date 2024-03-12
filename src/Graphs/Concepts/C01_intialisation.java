@@ -3,7 +3,7 @@ package Graphs.Concepts;
 import java.util.*;
 
 //GRAPH IMPLEMENTED USING HASHMAP
-public class C1_intialisation {
+public class C01_intialisation {
     public static void main(String[] args) {
         int[][] edges = { { 2, 4 }, { 0, 1 }, { 0, 2 }, { 4, 6 }, { 5, 6 }, { 5, 3 } };
         HashMap<Integer, List<Integer>> graph = new HashMap<>();

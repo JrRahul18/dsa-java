@@ -13,7 +13,7 @@ class Pair{
         this.parent = parent;
     }
 }
-public class C4_CycleInUndirectedGraph {
+public class C04_CycleInUndirectedGraph {
     
     public static boolean DFSTraversal(int u, int parent, HashMap<Integer, List<Integer>> graph, boolean[]checkVisited){
         checkVisited[u] = true;

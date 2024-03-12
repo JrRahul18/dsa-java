@@ -4,7 +4,7 @@ import java.util.*;
 //Topological Sort using Kahn Algorithm (BFS Traversal);
 //inDegree is used to store the number of incoming edge in a node;
 
-public class C7_TopologicalSort_KahnAlgorithm {
+public class C07_TopologicalSort_KahnAlgorithm {
     public static void BFSTraversal( HashMap<Integer, List<Integer>> graph, int[]inDegree, List<Integer> finalAns){
         Queue<Integer> queue= new LinkedList<>();
         for(int i=0; i<inDegree.length; i++){

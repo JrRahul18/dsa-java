@@ -4,7 +4,7 @@ import java.util.*;
 
 //Topological Sort using DFS
 
-public class C6_TopologicalSort_DFS {
+public class C06_TopologicalSort_DFS {
     public static void DFSTraversal(int u, HashMap<Integer, List<Integer>> graph, boolean[]checkVisited, Stack<Integer> stk){
         checkVisited[u] = true;
         for(int nbr: graph.get(u)){

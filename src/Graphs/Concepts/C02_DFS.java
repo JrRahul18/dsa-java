@@ -5,7 +5,7 @@ import java.util.*;
 //Connected edges are stored in adjacentEdges.
 
 //Time Complexity: O(V) + O(E);
-public class C2_DFS {
+public class C02_DFS {
     public static void DFS(int edge, HashMap<Integer, List<Integer>> graph, List<Integer> result, boolean[] checkVisited){
         if(checkVisited[edge] == true){
             return;
