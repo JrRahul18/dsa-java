@@ -5,15 +5,16 @@ import java.util.*;
 //By both BFS and DFS traversals.
 
 //Time Complexity: O(V) + O(E);
-class Pair{
-    int node;
-    int parent;
-    Pair(int node, int parent){
-        this.node = node;
-        this.parent = parent;
-    }
-}
+
 public class C04_CycleInUndirectedGraph {
+    static class Pair{
+        int node;
+        int parent;
+        Pair(int node, int parent){
+            this.node = node;
+            this.parent = parent;
+        }
+    }
     
     public static boolean DFSTraversal(int u, int parent, HashMap<Integer, List<Integer>> graph, boolean[]checkVisited){
         checkVisited[u] = true;

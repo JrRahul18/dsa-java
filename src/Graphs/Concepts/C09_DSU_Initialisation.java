@@ -1,6 +1,6 @@
 package Graphs.Concepts;
 
-public class C09_DSU {
+public class C09_DSU_Initialisation {
     //DSU initialised with find and union
     //Initially, every node is a parent of itself.
     //find() helps to find the parent of a given node.
